@@ -16,6 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-use App\Http\Controllers\Videotranscoder;
-Route::get('/video', [Videotranscoder::class, 'upload']);
+
 Route::post('/upload', [Videotranscoder::class, 'uploadVideo']);
