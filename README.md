@@ -21,6 +21,16 @@ API parameters are
   
   c.Returns time requred to transcode the video
 
+#preset
+Created custom preset for webm file and  saved  preset ID as array .
+
+  $preset  = array(
+            'mp4' => array(1080=>'1351620000001-000001' , 720=>'1351620000001-000001'), 
+            'webm' => array(1080=>'1687636354429-8ykbly' , 720=>'1687636906506-gwcwm5'), 
+        );
+
+
+        
 
 
 #Example Response : 
