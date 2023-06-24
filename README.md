@@ -1,7 +1,7 @@
 # AWS-elastic-transcoder
 
 API parameters are 
-
+ 
 1.video_file(FILE) - video file can be accepted
 2.preset(TEXT)  - form factor (144p, 240p, 360p, 480p, 720p and 1080p) 
 
