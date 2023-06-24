@@ -5,12 +5,21 @@ API parameters are
 1.video_file(FILE) - video file can be accepted
 2.preset(TEXT)  - form factor (144p, 240p, 360p, 480p, 720p and 1080p) 
 
+
+
+
 1.Checks video duration is less than 60 seconds or not 
+
 2.Videos will be upload to AWS bucket
+
 3.Can be transcoded using aws elastic transcoder 
+
   a.Return the file size along with the URLs
+  
   b.Check and make sure the end file sizes are lower than the uploaded file size, and handle the compression logic if not.
+  
   c.Returns time requred to transcode the video
+
 
 
 Example Response : 
